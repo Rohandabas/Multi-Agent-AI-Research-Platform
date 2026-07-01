@@ -1,0 +1,51 @@
+# Core Framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# AI / LangChain / LangGraph
+langgraph
+langchain
+langchain-google-genai
+langchain-community
+google-generativeai
+
+# Search
+tavily-python
+
+# PDF Processing
+docling
+
+# Vector Database
+chromadb
+
+# Database
+sqlalchemy
+aiosqlite
+
+# Data / Charts
+pandas
+plotly
+kaleido
+numpy
+
+# Export
+weasyprint
+python-docx
+markdown
+jinja2
+
+# HTTP / Async
+httpx
+aiohttp
+aiofiles
+beautifulsoup4
+
+# Config / Utils
+pydantic
+pydantic-settings
+python-dotenv
+
+# Testing
+pytest
+pytest-asyncio

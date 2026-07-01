@@ -1,0 +1,61 @@
+# ─── Environment Variables (Secret Keys) ──────────────────────────────────
+.env
+.env*.local
+*.env
+
+# ─── Node & Next.js (Frontend) ───────────────────────────────────────────
+node_modules/
+.next/
+out/
+build/
+.npm
+.yarn-error.log
+.pnpm-debug.log
+
+# ─── Python Cache & Virtual Environments (Backend) ────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ─── Database & Local Storage ─────────────────────────────────────────────
+backend/data/
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+/data/
+chroma/
+
+# ─── Output Assets (Generated Reports & Charts) ──────────────────────────
+backend/outputs/
+outputs/
+*.png
+*.pdf
+*.docx
+*.md
+!README.md
+!AGENTS.md
+!CLAUDE.md
+!implement.md
+!docs/**/*.md
+
+# ─── IDE & System Files ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
